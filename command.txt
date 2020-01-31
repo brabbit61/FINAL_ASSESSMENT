@@ -1,0 +1,3 @@
+python dataflow-python-examples/dataflow_python_examples/data_transformation.py --project=pe-training --runner=DataflowRunner --staging_location=gs://jenit-bucket/final_test --temp_location gs://jenit-bucket/final_test --input gs://jenit-bucket/usa_names.csv --save_main_session
+
+

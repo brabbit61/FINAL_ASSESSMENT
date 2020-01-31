@@ -1,0 +1,33 @@
+[
+  {
+    "name": "state",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Short abbreviation for state where the child was born.  For example 'NY' for New York."
+  },
+  {
+    "name": "gender",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "'F' for female and 'M' for Male."
+  },
+  {
+    "name": "year",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "Year the child was born in YYYY format."
+  },
+  {
+    "name": "name",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "The child's first name."
+  },
+  {
+    "name": "number",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "The number of new born children sharing this name for the year in the given state."
+  }
+]
+
